@@ -42,3 +42,4 @@ IoC容器是：
 - [attributes - Type hinting for properties in PHP 7? - Stack Overflow](https://stackoverflow.com/questions/37254695/type-hinting-for-properties-in-php-7)
 - [控制反轉 (IoC) 與 依賴注入 (DI) - NotFalse 技術客](https://notfalse.net/3/ioc-di)
 - [Hannes Van De Vreken - IOC container beyond constructor injection - Laracon EU 2016 - YouTube](https://www.youtube.com/watch?v=WMT8txJHdKI)
+- [如何理解Laravel 的IoC容器 – Bryce'S Note](http://blog.twbryce.com/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3laravel-%E7%9A%84ioc-%E5%AE%B9%E5%99%A8/)
