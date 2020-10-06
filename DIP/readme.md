@@ -20,6 +20,9 @@ Abstractions should not depend on details. Details should depend on abstractions
 
 主要就是Type Hint定義的參數必須是個interface，這樣物件在建立時才可以丟這個interface的實例，而非在一開始就決定具體實例。
 
+> 依賴注入和控制反轉是對同一件事情的不同描述，它們描述的角度不同。依賴注入是從應用程序的角度在描述，應用程序依賴容器創建並註入它所需要的外部資源。而控制反轉是從容器的角度在描述，容器控制應用程序，由容器反向的向應用程序注入應用程序所需要的外部資源。
+
+
 ## IoC容器(IoC Container) / 服務容器(Service Container) 
 IoC容器是：
 1. Dependency Inversion
@@ -43,3 +46,4 @@ IoC容器是：
 - [控制反轉 (IoC) 與 依賴注入 (DI) - NotFalse 技術客](https://notfalse.net/3/ioc-di)
 - [Hannes Van De Vreken - IOC container beyond constructor injection - Laracon EU 2016 - YouTube](https://www.youtube.com/watch?v=WMT8txJHdKI)
 - [如何理解Laravel 的IoC容器 – Bryce'S Note](http://blog.twbryce.com/%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3laravel-%E7%9A%84ioc-%E5%AE%B9%E5%99%A8/)
+- [服务容器 |《Laravel内核分析》| Laravel China 社区](https://learnku.com/docs/laravel-kernel/service-container-iocontainer/6914)
